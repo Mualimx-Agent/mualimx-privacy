@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="de">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Datenschutzerklärung – StillMind</title>
+<style>
+  body { font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif; line-height: 1.7; max-width: 800px; margin: 2rem auto; padding: 0 1.5rem; color: #2d2a35; background: #f8f6f4; }
+  h1 { color: #8B7AB8; border-bottom: 2px solid #B5A8D0; padding-bottom: 0.5rem; }
+  h2 { color: #8B7AB8; margin-top: 2rem; }
+  .meta { background: #efEAe3; padding: 1rem; border-radius: 8px; font-size: 0.9rem; }
+  .badge { display: inline-block; background: #8B7AB8; color: white; padding: 0.2rem 0.7rem; border-radius: 4px; font-size: 0.85rem; margin-right: 0.5rem; }
+  ul { padding-left: 1.5rem; }
+  li { margin: 0.3rem 0; }
+  footer { margin-top: 3rem; padding-top: 1rem; border-top: 1px solid #ccc; font-size: 0.85rem; color: #666; }
+</style>
+</head>
+<body>
+
+<h1>🌿 Datenschutzerklärung</h1>
+
+<div class="meta">
+  <p><span class="badge">StillMind v1.0.0</span> <span class="badge">Stand: Juli 2026</span></p>
+  <p>Verantwortlich: Mualimx Apps (Privatperson)<br>
+  Kontakt: <a href="mailto:mail2mualimx@gmail.com">mail2mualimx@gmail.com</a></p>
+</div>
+
+<h2>1. Zusammenfassung (TL;DR)</h2>
+<p><strong>StillMind ist so gebaut, dass es deine Daten schützt.</strong> Wir sammeln so wenig wie möglich. Wir verkaufen keine Daten. Wir binden keine Tracker ein. Kein Cloud-Backup, keine versteckte Telemetrie, keine Drittparteien-Analytics.</p>
+
+<h2>2. Welche Daten wir erheben</h2>
+
+<h3>2.1 Lokal auf deinem Gerät gespeicherte Daten</h3>
+<ul>
+  <li><strong>Account-Daten</strong> (E-Mail, Passwort-Hash, Sprachpräferenz): lokal + optionaler Sync zum eigenen Backend</li>
+  <li><strong>Session-Historie</strong> (welche Atem-Übungen, Meditationen, Dauer, Stimmung vorher/nachher): lokal + optionaler Sync</li>
+  <li><strong>App-Einstellungen</strong> (Sprache, Theme, Erinnerungen, Standard-Sound): lokal</li>
+</ul>
+
+<h3>2.2 Server-seitig (falls Account erstellt)</h3>
+<p>Der Backend-Server läuft auf eigener Infrastruktur (Oracle Cloud Free Tier, Frankfurt):</p>
+<ul>
+  <li>E-Mail-Adresse (für Login)</li>
+  <li>Passwort-Hash (bcrypt, niemals Klartext)</li>
+  <li>JWT-Token (für Session)</li>
+  <li>Session-Tracking (verschlüsselt über HTTPS)</li>
+</ul>
+
+<h3>2.3 Was wir NICHT erheben</h3>
+<ul>
+  <li>❌ Keine Geräte-IDs, Werbe-IDs, IDFA</li>
+  <li>❌ Keine Standortdaten (kein GPS, kein IP-Geolocation-Tracking)</li>
+  <li>❌ Keine Kontakte, Fotos, Mikrofon, Kamera</li>
+  <li>❌ Keine Analytics (kein Google Analytics, Firebase, Mixpanel, etc.)</li>
+  <li>❌ Keine Drittparteien-Tracker oder Werbe-Netzwerke</li>
+  <li>❌ Keine personalisierte Werbung</li>
+  <li>❌ Kein Verkauf von Daten an Dritte</li>
+</ul>
+
+<h2>3. Wofür wir die Daten nutzen</h2>
+<ul>
+  <li><strong>Account-Funktion:</strong> Login + Sync deiner Session-Historie (optional)</li>
+  <li><strong>App-Funktionen:</strong> Atem-Übungen, Meditationen, Statistiken</li>
+</ul>
+
+<h2>4. Rechtsgrundlage (DSGVO)</h2>
+<ul>
+  <li><strong>Art. 6 Abs. 1 lit. b DSGVO</strong> – Vertragserfüllung (Nutzung der App-Dienste)</li>
+  <li><strong>Art. 6 Abs. 1 lit. a DSGVO</strong> – Einwilligung (Account, optionaler Sync)</li>
+  <li><strong>Art. 6 Abs. 1 lit. f DSGVO</strong> – Berechtigtes Interesse (Sicherheit, Missbrauchsprävention)</li>
+</ul>
+
+<h2>5. Speicherdauer</h2>
+<ul>
+  <li><strong>Account-Daten:</strong> bis zur Kontolöschung, danach 30 Tage Backup-Aufbewahrung</li>
+  <li><strong>Session-Historie:</strong> bis zur manuellen Löschung oder Kontolöschung</li>
+  <li><strong>Server-Logs:</strong> maximal 7 Tage (nur technisch, keine personenbezogenen Daten)</li>
+</ul>
+
+<h2>6. Deine Rechte (DSGVO)</h2>
+<p>Du hast jederzeit das Recht auf:</p>
+<ul>
+  <li>✅ <strong>Auskunft</strong> (Art. 15) – wir zeigen dir, was wir über dich haben</li>
+  <li>✅ <strong>Berichtigung</strong> (Art. 16) – du kannst deine Daten korrigieren</li>
+  <li>✅ <strong>Löschung</strong> (Art. 17) – „Recht auf Vergessenwerden"</li>
+  <li>✅ <strong>Datenübertragbarkeit</strong> (Art. 20) – Export als JSON</li>
+  <li>✅ <strong>Widerspruch</strong> (Art. 21)</li>
+</ul>
+<p>Wende dich an: <a href="mailto:mail2mualimx@gmail.com">mail2mualimx@gmail.com</a> – Antwort innerhalb von 30 Tagen.</p>
+
+<h2>7. Sicherheit</h2>
+<ul>
+  <li>HTTPS für alle API-Calls (TLS 1.3)</li>
+  <li>Passwörter: bcrypt mit Salt (niemals Klartext)</li>
+  <li>JWT-Token mit 24h Laufzeit</li>
+  <li>Keine Cloud-Backups (Android: <code>allowBackup=false</code>)</li>
+  <li>Backend auf eigenem VPS (Oracle Cloud, Frankfurt)</li>
+</ul>
+
+<h2>8. Berechtigungen</h2>
+<p>StillMind fordert nur <strong>minimal notwendige</strong> Android-Berechtigungen:</p>
+<ul>
+  <li><code>VIBRATE</code> – Haptisches Feedback als Atem-Coach (optional, in Settings deaktivierbar)</li>
+  <li><code>WAKE_LOCK</code> – Bildschirm an während aktiver Session</li>
+</ul>
+<p>Wir fordern KEINE Berechtigung für Internet, Standort, Kamera, Mikrofon, Kontakte, Fotos, Speicher (außer für deine lokalen Session-Daten).</p>
+
+<h2>9. Kinder</h2>
+<p>StillMind richtet sich an Nutzer ab 13 Jahren. Wir erheben wissentlich keine Daten von Kindern unter 13.</p>
+
+<h2>10. Internationale Datenübertragung</h2>
+<p>Der Server steht in <strong>Frankfurt, Deutschland (EU)</strong>. Keine Übertragung in Drittländer außerhalb der EU.</p>
+
+<h2>11. Änderungen</h2>
+<p>Wir werden dich in der App über wesentliche Änderungen informieren. Die aktuelle Version ist immer auf dieser Seite verfügbar.</p>
+
+<h2>12. Beschwerderecht</h2>
+<p>Du hast das Recht, dich bei der zuständigen Datenschutz-Aufsichtsbehörde zu beschweren.</p>
+
+<h2>13. Kontakt</h2>
+<p>
+<strong>Mualimx Apps</strong><br>
+E-Mail: <a href="mailto:mail2mualimx@gmail.com">mail2mualimx@gmail.com</a><br>
+Antwortzeit: innerhalb 30 Tagen
+</p>
+
+<footer>
+<p>🌿 StillMind – Built clean, fair, private.</p>
+</footer>
+
+</body>
+</html>
